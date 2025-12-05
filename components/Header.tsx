@@ -70,6 +70,13 @@ export default function Header() {
               )}
             </div>
             <Link
+              href="/gallery"
+              className="text-sm font-medium text-luxury-maroon hover:text-luxury-gold transition-colors"
+              onMouseEnter={() => setActiveMenu(null)}
+            >
+              Gallery
+            </Link>
+            <Link
               href="/contact"
               className="text-sm font-medium text-luxury-maroon hover:text-luxury-gold transition-colors"
               onMouseEnter={() => setActiveMenu(null)}
