@@ -70,7 +70,7 @@ export default function Header() {
               )}
             </div>
             <Link
-              href="/gallery"
+              href="/gallery"  
               className="text-sm font-medium text-luxury-maroon hover:text-luxury-gold transition-colors"
               onMouseEnter={() => setActiveMenu(null)}
             >
@@ -133,7 +133,7 @@ export default function Header() {
               About
             </Link>
             <div className="space-y-2">
-              <div className="text-sm font-semibold text-luxury-maroon">Categories</div>
+              <div className="text-sm font-semibold text-luxury-maroon">Categories </div>
               <div className="pl-4 space-y-2">
                 <Link
                   href="/categories/ethnic-wear"
